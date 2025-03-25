@@ -1,0 +1,9 @@
+﻿  Compiling CUDA source file Drawing_cuda.cu...
+  
+  C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.4\include"  -G   --keep-dir "Lab 7 CU.4E32213B\x64\Debug"  -maxrregcount=0   --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fd\"Lab 7 CU.4E32213B\x64\Debug\vc143.pdb\"" -o "C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster\Lab 7 CU.4E32213B\x64\Debug\Drawing_cuda.cu.obj" "C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster\Drawing_cuda.cu" 
+CUDACOMPILE : ptxas warning : Stack size for entry function '_Z8d_renderP6uchar4jjPP7hitable' cannot be statically determined
+  Drawing_cuda.cu
+  tmpxft_0000634c_00000000-7_Drawing_cuda.cudafe1.cpp
+C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster\Headers\vec3.h(54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster\Headers\vec3.h(133): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Lab 7 CUDA Ray Caster.vcxproj -> C:\Users\694529\Workspace\wjv-lab-g-Daniel-Satchwell\CUDA Code\Lab 7 CUDA Ray Caster\x64\Debug\Lab 7 CUDA Ray Caster.exe
